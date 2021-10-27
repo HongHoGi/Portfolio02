@@ -1,0 +1,331 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gluten&family=Nanum+Gothic&display=swap');
+
+
+/* 헤더구역 시작 */
+#header {
+    height:120px;
+    position:relative;
+    background:#000;
+}
+#header .logo img {
+    width:200px;;
+    height:90px;
+    position:absolute;
+    left:40px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+#header .navbox {
+    position:absolute;
+    left:400px;
+}
+#header .navbox li {
+    float:left;
+    font-size:40px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    line-height:120px;
+}
+#header .navbox li a {
+    display:inline-block;
+    padding:0 55px;
+    padding-top:5px;
+}
+
+#header .loginbox {
+    position:absolute;
+    top:50%;
+    right:0;
+    transform:translateY(-50%);
+    margin-right:50px;
+}
+#header .loginbox a {
+    font-size:24px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    margin:0 10px;
+}
+/* 헤더구역 끝 */
+
+
+/* 컨텐츠구역 시작 */
+
+#section .marvel {
+    background-image:url(../img/bg-m.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:600px;
+    position:relative;
+}
+#section .marvel .marvelLogo {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translateX(-50%);
+}
+#section .marvel .marvelLogo img {
+    width:350px;
+}
+#section .marvel .marvelLogo .flylogo {
+    position:absolute;
+    top:0;
+    left:-100%;
+}
+#section .marvel .marvelLink {
+    position:absolute;
+    top:67%;
+    left:50%;
+    transform:translateX(-50%);
+    border:1px solid white;
+    border-radius:10px;
+    padding:5px;
+}
+#section .marvel .marvelLink a {
+    font-size:24px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    margin:15px;
+    transition:all 0.3s;
+}
+#section .marvel .marvelLink a:hover {
+    color:red
+}
+#section .marvel .marvelwing1 {
+    position:absolute;
+    top:0;
+    left:24%;
+}
+#section .marvel .marvelwing2 {
+    position:absolute;
+    top:0;
+    right:24%;
+}
+
+#section .ironman {
+    background-image:url(../img/ironman.jpg);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-attachment: fixed;
+    height:600px;
+    position:relative;
+}
+#section .ironman .ironmanLogo {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translateX(-50%);
+}
+#section .ironman .ironmanLogo img {
+    width:500px;
+}
+#section .ironman .ironmanLink {
+    position:absolute;
+    top:67%;
+    left:50%;
+    transform:translateX(-50%);
+    border:1px solid white;
+    border-radius:10px;
+    padding:5px;
+}
+#section .ironman .ironmanLink a {
+    font-size:24px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    margin:15px;
+    transition:all 0.3s;
+}
+#section .ironman .ironmanLink a:hover {
+    color:red
+}
+
+#section .venom {
+    background-image:url(../img/venom.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    height:600px;
+    position:relative;
+}
+#section .venom .venomLogo {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translateX(-50%);
+}
+#section .venom .venomLogo img {
+    width:350px;
+}
+#section .venom .venomLink {
+    position:absolute;
+    top:67%;
+    left:50%;
+    transform:translateX(-50%);
+    border:1px solid white;
+    border-radius:10px;
+    padding:5px;
+}
+#section .venom .venomLink a {
+    font-size:24px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    margin:15px;
+    transition:all 0.3s;
+}
+#section .venom .venomLink a:hover {
+    color:red
+}
+
+#section .avengers {
+    background-image:url(../img/avengers.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:600px;
+    position:relative;
+}
+#section .avengers .avengersLogo {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translateX(-50%);
+}
+#section .avengers .avengersLogo img {
+    width:380px;
+}
+#section .avengers .avengersLink {
+    position:absolute;
+    top:67%;
+    left:50%;
+    transform:translateX(-50%);
+    border:1px solid white;
+    border-radius:10px;
+    padding:5px;
+}
+#section .avengers .avengersLink a {
+    font-size:24px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    margin:15px;
+    transition:all 0.3s;
+}
+#section .avengers .avengersLink a:hover {
+    color:red
+}
+
+#section .thor {
+    background-image:url(../img/thor.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:600px;
+    position:relative;
+}
+#section .thor .thorLogo {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translateX(-50%);
+}
+#section .thor .thorLogo img {
+    width:350px;
+}
+#section .thor .thorLink {
+    position:absolute;
+    top:67%;
+    left:50%;
+    transform:translateX(-50%);
+    border:1px solid white;
+    border-radius:10px;
+    padding:5px;
+}
+#section .thor .thorLink a {
+    font-size:24px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    margin:15px;
+    transition:all 0.3s;
+}
+#section .thor .thorLink a:hover {
+    color:gold
+}
+
+#section .CAmerica {
+    background-image:url(../img/captainAmerica.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:600px;
+    position:relative;
+}
+#section .CAmerica .CAmericaLogo {
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform:translateX(-50%);
+}
+#section .CAmerica .CAmericaLogo img {
+    width:450px;
+}
+#section .CAmerica .CAmericaLink {
+    position:absolute;
+    top:67%;
+    left:50%;
+    transform:translateX(-50%);
+    border:1px solid white;
+    border-radius:10px;
+    padding:5px;
+}
+#section .CAmerica .CAmericaLink a {
+    font-size:24px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    margin:15px;
+    transition:all 0.3s;
+}
+#section .CAmerica .CAmericaLink a:hover {
+    color:red
+}
+
+/* 컨텐츠구역 끝 */
+
+
+/* 푸터구역 시작 */
+
+#footer {
+    height:60px;
+    background:#363636;
+    line-height:60px;
+    padding:0 30px 0 60px;
+    position:relative;
+}
+#footer .ftbox img {
+    width:60px;
+    height:25px;
+    display:inline-block;
+    margin-right:20px;
+}
+#footer .ftbox p {
+    display:inline-block;
+    color:#9b9b9b;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:0.5px;
+}
+
+#footer .ftright {
+    position:absolute;
+    right:50px;
+    top:0;
+}
+#footer .ftright ul li {
+    float:left;
+}
+#footer .ftright ul li a {
+    font-size:14px;
+    font-weight:bold;
+    color:#9b9b9b;
+    margin:0 15px;
+    letter-spacing:-0.5px;
+}
+
+/* 푸터구역 끝 */

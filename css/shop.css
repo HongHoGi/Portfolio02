@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gluten&family=Nanum+Gothic&display=swap');
+
+
+/* 헤더구역 시작 */
+#header {
+    height:120px;
+    position:relative;
+    background:#000;
+}
+#header .logo img {
+    width:200px;;
+    height:90px;
+    position:absolute;
+    left:40px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+#header .navbox {
+    position:absolute;
+    left:400px;
+}
+#header .navbox li {
+    float:left;
+    font-size:40px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    line-height:120px;
+}
+#header .navbox li a {
+    display:inline-block;
+    padding:0 55px;
+    padding-top:5px;
+}
+
+#header .loginbox {
+    position:absolute;
+    top:50%;
+    right:0;
+    transform:translateY(-50%);
+    margin-right:50px;
+}
+#header .loginbox a {
+    font-size:24px;
+    font-family: 'Gluten', cursive;
+    color:white;
+    margin:0 10px;
+}
+/* 헤더구역 끝 */
+
+
+
+/* 푸터구역 시작 */
+
+#footer {
+    height:60px;
+    background:#363636;
+    line-height:60px;
+    padding:0 30px 0 60px;
+    position:relative;
+}
+#footer .ftbox img {
+    width:60px;
+    height:25px;
+    display:inline-block;
+    margin-right:20px;
+}
+#footer .ftbox p {
+    display:inline-block;
+    color:#9b9b9b;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:0.5px;
+}
+
+#footer .ftright {
+    position:absolute;
+    right:50px;
+    top:0;
+}
+#footer .ftright ul li {
+    float:left;
+}
+#footer .ftright ul li a {
+    font-size:14px;
+    font-weight:bold;
+    color:#9b9b9b;
+    margin:0 15px;
+    letter-spacing:-0.5px;
+}
+
+/* 푸터구역 끝 */

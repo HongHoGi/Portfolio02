@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/join.css">
+</head>
+<body>
+
+    <header id="header">
+
+        <div class="logo">
+            <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+        </div>
+        <div class="navbox">
+            <ul class="cf">
+                <li><a href="Movie.html">MOVIE</a></li>
+                <li><a href="#">HERO</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">NOTICE</a></li>
+            </ul>
+        </div>
+        <div class="loginbox">
+            <a href="./login.html">LOGIN</a>
+            <a href="./join.html">JOIN</a>
+        </div>
+
+    </header>
+
+    <section id="section">
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>MEMBER</legend>
+                <table>
+                    <colgroup>
+                        <col>
+                        <col>
+                    </colgroup>
+                    <tr>
+                        <th>
+                            <label for="pid">ID</label>
+                        </th>
+                        <td>
+                            <input type="text" name="pid" id="pid" placeholder="ID">
+                            <button type="button">ID CHECK</button> (English, Number 4~16)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="pw">PW</label>
+                        </th>
+                        <td>
+                            <input type="password" id="pw" name="pw" placeholder="PASSWORD">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="pwok">PW CHECK</label>
+                        </th>
+                        <td>
+                            <input type="password" id="pwok" placeholder="PASSWORD">
+                            <button type="button">PW CHECK</button> (Check the password)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="irum">NAME</label>
+                        </th>
+                        <td>
+                            <input type="text" name="irum" id="irum "placeholder="NAME">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="gender">GENDER</label>
+                        </th>
+                        <td>
+                            <input type="radio" name="gender" id="man" checked> 
+                            <label for="man" class="gender">MAN</label>
+                            <input type="radio" name="gender" id="woman"> 
+                            <label for="woman" class="gender">WOMAN</label>                                    
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="memo">MEMO</label>
+                        </th>
+                        <td>
+                            <textarea name="memo" id="memo" placeholder="Write a memo with less than 10 letters."></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <div class="btn">
+                <button type="submit">JOIN</button>
+                <button type="reset">CANCEL</button>
+            </div>
+        </form>
+
+    </section>
+
+    <footer id="footer">
+
+        <div class="ftbox">
+            <img src="./img/월트디즈니.png" alt="">
+            <p>©Disney ©Disney/Pixar ©MARVEL © & ™ Lucasfilm Ltd. ©2021 20CS</p>
+        </div>
+
+        <div class="ftright">
+            <ul class="cf">
+                <li><a href="#">COMPANY</a></li>
+                <li><a href="#">HIRE</a></li>
+                <li><a href="#">EXPLANATION</a></li>
+                <li><a href="#">PERSONAL INFORMATION</a></li>
+            </ul>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
